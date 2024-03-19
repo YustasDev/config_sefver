@@ -9,14 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>goosseff.site</groupId>
-    <artifactId>config_server</artifactId>
+    <artifactId>configserver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Configuration Server</name>
-    <description>Configuration Server</description>
+    <name>configserver</name>
+    <description>configserver</description>
     <properties>
         <java.version>11</java.version>
-        <docker.image.prefix>009123</docker.image.prefix>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+        <docker.image.prefix>009123</docker.image.prefix>
     </properties>
     <dependencies>
         <dependency>
